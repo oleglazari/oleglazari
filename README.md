@@ -11,8 +11,6 @@
 
 - **Vulnerability Researcher** with a focus on C/C++ memory safety and arithmetic logic.
 - **Embedded Software Engineer** for the RIT Electric Vehicle Team (EVT).
-- Experienced in **automated fuzzing pipelines**, **RCA**, and **coordinated disclosure**.
-- Transitioning into **Computer Engineering** to bridge the gap between hardware architecture and offensive security.
 
 ---
 
