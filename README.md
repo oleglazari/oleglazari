@@ -1,58 +1,50 @@
 <h1 align="center">👋 Hey there, I'm Oleg Lazari</h1>
 
 <p align="center">
-  Embedded Software Engineer | Cybersecurity Student @ RIT<br>
-  🚀 Passionate about low-level systems, reverse engineering, and embedded development.
+  <strong>Cybersecurity @ RIT | Vulnerability Researcher</strong><br>
+   Focused on low-level systems, automated fuzzing, and binary exploitation.
 </p>
 
 ---
 
-### 🛠️ About Me
+###  About Me
 
-- Fourth-year Cybersecurity student in the BS/MS program at **RIT**
-- Embedded Software Engineer for the **RIT Electric Vehicle Team**
-- Focused on **firmware development**, **vulnerability research**, and **reverse engineering**
-- Interested in **binary exploitation**, **fuzzing**, and **secure embedded platforms**
+- **Vulnerability Researcher** with a focus on C/C++ memory safety and arithmetic logic.
+- **Embedded Software Engineer** for the RIT Electric Vehicle Team (EVT).
+- Experienced in **automated fuzzing pipelines**, **RCA**, and **coordinated disclosure**.
+- Transitioning into **Computer Engineering** to bridge the gap between hardware architecture and offensive security.
 
 ---
 
-### 🔧 Tech Stack
+###  Tech Stack
 
 ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![Assembly](https://img.shields.io/badge/ASM-x86/ARM-red?style=flat)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 [![Ghidra](https://img.shields.io/badge/Ghidra-FFD700?style=flat&logo=gnu&logoColor=black)](https://ghidra-sre.org/)
 [![Binary Ninja](https://img.shields.io/badge/Binary%20Ninja-DA70D6?style=flat&logoColor=white)](https://binary.ninja/)
 
 ---
 
-### 🔭 Current Projects
+### Featured Research & Projects
 
-- ⚡ Digital to Analog Converter for RIT EVT
-- 🛠️ Fuzzing and sanitizing embedded software using Clang/LLVM tools
-- 🔐 Binary exploitation and reversing challenges for skill sharpening
+ [**security-research**](https://github.com/ol2764RIT/security-research)  
+> **Primary Disclosure Archive.** Includes Root Cause Analysis (RCA) and PoCs for discovered vulnerabilities.
+> * **Notable Find:** Integer underflow in `CRoaring` (v4.5.1) leading to OOB reads. Regression test `safe_test_lazari` integrated into upstream.
+
+ [**VRIG-RITSEC/fuzzillai**](https://github.com/VRIG-RITSEC/fuzzillai)  
+> Researching agentic fuzzing pipelines using JIT-engine fuzzer **Fuzzilli**. Exploring LLM-augmented mutation for high-complexity targets.
+
+ [**fuzzing-stuff**](https://github.com/ol2764RIT/fuzzing-stuff)  
+> 10-day campaign on `libucl` using libFuzzer and sanitizers. Includes triage automation and seed corpus generation.
+
+ [**RIT-EVT/HIB**](https://github.com/RIT-EVT/HIB)  
+> Rider Control Interface firmware—high-integrity translation of analog throttle inputs to real-time digital motor control.
 
 ---
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ol2764RIT&layout=compact&theme=radical" alt="Top Languages" />
 </p>
-
----
-
-
-### 🧠 Pinned Repos You Should See
-
-⭐ [`binary-exploitation-writeups-pico`](https://github.com/ol2764RIT/binary-exploitation-writeups-pico)  
-> CTF-style challenges to explore exploit chains and reverse engineering in linux binaries.
-
-🧪 [`fuzzing-stuff`](https://github.com/ol2764RIT/fuzzing-stuff)  
-> Custom harnesses and automated fuzzing scripts using Clang sanitizers for various C libraries codebases.
-
-⚡ [`RIT-EVT/HIB`](https://github.com/RIT-EVT/HIB)  
-> Rider control interface firmware—translating analog inputs into real-time digital signals.
-
-🌡️ [`RIT-EVT/TMU`](https://github.com/RIT-EVT/TMU)  
-> A thermocouple measurement system for real-time temperature telemetry on EVs.
